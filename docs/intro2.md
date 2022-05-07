@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 ## 我们如何使用 Cookie 和其他追踪技术
 
