@@ -39,9 +39,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'My Site',
+    (
+      {
+        
+        algolia: {
+          apiKey: "3756404006a367e258365d17b53aa15a",
+          appId: "0IH052I14A",
+          indexName: "scarecrow",
+        },navbar: {
+        title: 'Scarecrow',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -51,7 +57,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Doc',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
